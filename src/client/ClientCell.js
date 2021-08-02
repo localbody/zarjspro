@@ -56,7 +56,7 @@ class ClientCell extends PositionedObject {
       objects[objToAdd.layerId] = [];
     }
 
-    this.objects.push(objToAdd);
+    objects[objToAdd.layerId].push(objToAdd);
   }
 
   removeGameObject(objToRemove) {
