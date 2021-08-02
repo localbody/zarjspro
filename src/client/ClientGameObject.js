@@ -11,9 +11,9 @@ class ClientGameObject extends MovableObject {
     const gameObjs = world.game.gameObjects;
     const objCfg = typeof cfg.objCfg === 'string' ? { type: cfg.objCfg } : cfg.objCfg;
 
-    if (objCfg.player) {
-      world.game.setPlayer(this);
-    }
+    // if (objCfg.player) {
+    //   world.game.setPlayer(this);
+    // }
 
     Object.assign(
       this,
